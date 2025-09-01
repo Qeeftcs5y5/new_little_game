@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "拷贝到目标目录",
+      "type": "shell",
+      "command": "cp -R ${workspaceFolder}/* /Users/liruixuan/Desktop/.minecraft/versions/1.21.1/saves/Qeefycs5y5/datapacks",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}

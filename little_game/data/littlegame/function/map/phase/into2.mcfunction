@@ -11,7 +11,7 @@ scoreboard players set @a infector 0
 #默认分配
 execute if score infector_amount hidden_data matches 0 run function littlegame:map/function/distribute
 #非默认分配
-execute if score infector_amount hidden_data matches 1.. run function littlegame:map/function/distribute_p
+#execute if score infector_amount hidden_data matches 1.. run function littlegame:map/function/distribute_p
 
 
 scoreboard players set @a[scores={infector=0}] survivor 1

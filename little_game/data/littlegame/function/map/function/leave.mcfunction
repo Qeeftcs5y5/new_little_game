@@ -6,5 +6,6 @@ attribute @s minecraft:generic.max_health base set 20
 attribute @s minecraft:generic.movement_speed base set 0.1
 attribute @s minecraft:generic.attack_damage base set 1
 clear @s
-kill @s
-tp @s
+effect clear @s
+team leave survivor
+team leave infector

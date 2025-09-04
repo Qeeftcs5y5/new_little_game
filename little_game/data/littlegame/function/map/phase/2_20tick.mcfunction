@@ -1,5 +1,5 @@
 scoreboard players remove InfectionRemainedTime data 1
-scoreboard players set game_tick hidden_data 0
+scoreboard players set #game_tick data 0
 #胜利条件的判定
 scoreboard players reset SurvivorAmount data
 execute as @a[scores={survivor=1}] run scoreboard players add SurvivorAmount data 1

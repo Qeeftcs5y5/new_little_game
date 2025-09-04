@@ -1,17 +1,17 @@
 #显示
 scoreboard players reset PreparationRemainedTime data
-scoreboard players operation InfectionRemainedTime data = infection_time hidden_data 
-scoreboard players set game_tick hidden_data 0
+scoreboard players operation InfectionRemainedTime data = infection_time data 
+scoreboard players set #game_tick data 0
 title @a title {"text": "Infection Phase","color":"#23f7e5"} 
 #二阶段
-scoreboard players set game_phase hidden_data 2
+scoreboard players set #game_phase data 2
 #随机分配生化母体
 #————————————————————————————————————
 scoreboard players set @a infector 0
 #默认分配
-execute if score infector_amount hidden_data matches 0 run function littlegame:map/function/distribute
+execute if score #infector_amount data matches 0 run function littlegame:map/function/distribute
 #非默认分配
-#execute if score infector_amount hidden_data matches 1.. run function littlegame:map/function/distribute_p
+#execute if score infector_amount data matches 1.. run function littlegame:map/function/distribute_p
 
 
 scoreboard players set @a[scores={infector=0}] survivor 1

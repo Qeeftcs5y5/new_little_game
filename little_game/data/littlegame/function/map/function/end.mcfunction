@@ -9,7 +9,6 @@ scoreboard objectives remove reload_time1
 scoreboard objectives remove reload_time2 
 #data
 scoreboard objectives remove data 
-scoreboard objectives remove data
 scoreboard objectives remove revive_timer
 #bool
 scoreboard objectives remove survivor 

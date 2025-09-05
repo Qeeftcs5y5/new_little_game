@@ -4,7 +4,6 @@ scoreboard objectives add fly_times dummy
 scoreboard objectives add reload_time1 dummy
 scoreboard objectives add reload_time2 dummy
 #data
-scoreboard objectives add data dummy
 scoreboard objectives add data dummy {"text":"LittleGameData","color":"green"}
 scoreboard objectives add revive_timer dummy
 #bool
